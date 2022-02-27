@@ -1,0 +1,91 @@
+@media only screen and (max-width: 800px)
+{
+    .menu
+    {
+        display:none;
+    }
+
+    .primary-container{
+        width:70%;
+        height:570vh;
+        background-color: var(--color-brown);
+        position:relative;
+        z-index: 1;
+        border-radius:0 0 40px 40px;
+       
+    }
+    
+.hamburguer{
+    width:50px;
+    height:50px;
+    top:0px;
+    left:10px;
+
+position:relative;
+display:flex;
+justify-content: center;
+align-items: center;
+cursor:pointer;
+z-index:999;
+
+}
+.hamburguer span:nth-child(1)
+{
+    display:block;
+    width:40px;
+    height:5px;
+    background-color:black;
+    position: absolute;
+    border-radius:10px;
+    top:10px;
+}
+.hamburguer span:nth-child(2)
+{
+    display:block;
+    width:30px;
+    height:3px;
+    background-color:black;
+    position:absolute;
+    transition:0.4s linear;
+    border-radius:10px;
+    left:5px;
+}
+.hamburguer span:nth-child(3)
+{
+    display:block;
+    width:30px;
+    height:3px;
+    background-color:var(--color-lightBrown);
+    position:absolute;
+    border-radius:10px;
+    transition:0.4s linear;
+    left:5px;
+}
+.hamburguer span:nth-child(1).active
+{
+  visibility:hidden;
+}
+.hamburguer span:nth-child(2).active
+{
+transform:rotate(50deg);
+
+}
+.hamburguer span:nth-child(3).active
+{
+    transform:rotate(-50deg);
+}
+
+.video-youtube iframe{
+    height:250px;
+   }
+
+   .gallery
+{     
+  
+    grid-template-columns:repeat(1,1fr);
+ 
+   
+}
+
+
+}

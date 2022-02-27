@@ -1,0 +1,60 @@
+body {
+    height:100vh;
+    width:100%;
+    min-width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color:var(--color-lightBrown);
+    color:white;
+}
+
+
+nav
+{   min-width: 100%;
+    display:flex;
+    justify-content: space-around;
+    height:5em;
+    padding:1em;
+    align-items: center;
+
+}
+
+.logoPicture{
+
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+    border-radius: 150px;
+}
+.logo
+{  
+ 
+    display:flex;
+    height:2.5em;
+    align-items: center;
+    margin:10px;
+    flex:50%;
+}
+
+.logo h1{
+   letter-spacing: 5px;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Shizuru';}
+
+.menu{
+    flex:50%;
+    display:flex;
+    justify-content: space-around;
+   
+  
+}
+.menu li{
+    cursor:pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shizuru';
+    margin:5px;
+    
+    }
