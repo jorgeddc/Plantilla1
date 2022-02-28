@@ -1,6 +1,9 @@
+.menu-responsive{}
+
+
 .primary-container{
     width:70%;
-    height:270vh;
+    height:200vh;
     background-color: var(--color-brown);
     position:relative;
     z-index: 1;
@@ -69,8 +72,8 @@
 .up{
    position:absolute;
    object-fit:contain;
-   width:40%;
-   height:40%;
+   width:60%;
+   height:60%;
    top:50%;
    left:50%;
    transform:translate(-50%,-50%);

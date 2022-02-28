@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="./CSS/rrss.css">
     <link rel="stylesheet" href="./CSS/container.css">
     <link rel="stylesheet" href="./CSS/form.css">
+    <link rel="stylesheet" href="./CSS/arrow.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./Responsive/responsive.css">
+    <link rel="stylesheet" href="./Responsive/responsive-nav.css">
 
                 <!-- FONT GOOGLE -->
                 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,9 +27,9 @@
              
                 <title>Plantilla1</title>
 </head>
-<body>
+<body id="body">
 
-    <div class="primary-container">
+    <div id='home' class="primary-container">
           <nav>
         <div class="logo">
            
@@ -37,35 +40,45 @@
      <span></span>
     <span></span> 
     <span></span>  
- </div>
-       <ul class="menu">
-           <li>home</li>
-           <li>gallery</li>
-           <li>contact</li>
-           
-       </ul>
-       </nav>
+</div>
+<ul class="menu">
+    <a href="#home" class="home"><li>home</li></a> 
+    <a href="#galery"><li>gallery</li></a>
+    <a href="#contact"><li>contact</li></a>
+    
+</ul>
+</nav>
 
-       <div class="rrss">
-           <ul>
-          
-          
-               <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-               <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-               <li>  <i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-           </ul>
-       </div>
+<div class="container-responsive-menu">
+    
+
+            <a href="#home">home</a> 
+            <a href="#galery">gallery</a>
+            <a href="#contact">contact</a>
+</div>
+
+
+<div class="rrss">
+    <ul>
+        
+        
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            <li>  <i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+    </ul>
+</div>
 <section class="container">
-     
-        <div class="video-youtube"> 
-               <iframe  width="500" height="315" src="https://www.youtube.com/embed/mjGUqxe8U1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    
+    <div class="video-youtube"> 
+        <iframe  width="500" height="315" src="https://www.youtube.com/embed/mjGUqxe8U1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             
         </iframe>
-           
-          </div>
-
+                
+            </div>
+            
+     <a href="#home" class="arrow-up"> <i class="fa fa-angle-double-up " aria-hidden="true"></i></a> 
     
-    <h1 class='header-gallery'>gallery</h1>
+    <h1 id='galery'class='header-gallery'>gallery</h1>
 
     <div class="gallery">
             <div class="picture ">  <a href="#center">  <img src="https://media.istockphoto.com/photos/black-female-singer-singing-into-microphone-in-recording-studio-picture-id1284317705?b=1&k=20&m=1284317705&s=170667a&w=0&h=F7UoOb_dF4Jmsx2eYkWuehZn_EHvF6iYZtS260Cxn_o=" alt=""></a>
@@ -93,25 +106,9 @@
             <div class="picture ">  <a href="#center">  <img src="https://media.istockphoto.com/photos/young-africanamerican-female-singer-recording-song-in-the-music-picture-id1284321181?k=20&m=1284321181&s=612x612&w=0&h=CMIiLqTqfTLviAg-KfNfDD81b78bgs65zwoI8bjdnBQ=" alt=""></a>
             </div>
           
+ </div>
 
-
-                
-          
-            <!-- <div class="picture"><img src="./Pictures/2.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/3.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/4.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/5.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/6.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/7.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/8.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/9.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/10.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/11.jpg" alt=""></div>
-            <div class="picture"><img src="./Pictures/12.jpg" alt=""></div> -->
-            
-     </div>
-
-    <h1 class="header-contact">contact</h1>
+    <h1  id='contact'class="header-contact">contact</h1>
 
      <div class="contact-form">
 <div class="contenedor" id="contenedor">
@@ -132,6 +129,18 @@ id="texto"></textarea>
     </section> 
     
 
+    <section class="footer">
+
+        <div class="logo-copy"><img class="logoPicture"  src="./Pictures/chamanesFoto.png" alt="">
+        <i class="fa fa-copyright" aria-hidden="true">2022 </i> </div>
+        
+       
+        <div> <p>chamanes</p>  </div>
+       
+
+
+
+    </section>
             </div>
   
 

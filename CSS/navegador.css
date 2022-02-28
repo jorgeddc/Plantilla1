@@ -58,3 +58,34 @@ nav
     margin:5px;
     
     }
+
+.menu li:hover {
+    color:black;
+    border-bottom:2px solid black;
+}
+
+
+/* RESPONSIVE NAVIGATOR */
+
+.container-responsive-menu  {
+    width:100%;
+    height:0px;
+    display:flex;
+    visibility:hidden;
+    background-color:black;
+    text-transform:uppercase;
+    justify-content: space-around;
+    align-items: center;
+    transition:0.4s linear;
+  
+}
+
+.container-responsive-menu.active{
+    
+    height:40px;
+    visibility:visible;
+}
+
+
+
+
