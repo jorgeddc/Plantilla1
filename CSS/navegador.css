@@ -4,8 +4,9 @@ body {
     min-width: 100%;
     display:flex;
     justify-content: center;
+    
     background-color:var(--color-lightBrown);
-    color:white;
+    color:var(--color-white);
 }
 
 
@@ -40,8 +41,7 @@ nav
    letter-spacing: 5px;
    font-weight: bold;
    text-transform: uppercase;
-   font-family: 'Montserrat', sans-serif;
-   font-family: 'Shizuru';}
+ }
 
 .menu{
     flex:50%;
@@ -53,15 +53,14 @@ nav
 .menu li{
     cursor:pointer;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Shizuru';
+  
     margin:5px;
     
     }
 
 .menu li:hover {
-    color:black;
-    border-bottom:2px solid black;
+    color:var(--color-black);
+    border-bottom:2px solid var(--color-black);
 }
 
 
@@ -72,7 +71,7 @@ nav
     height:0px;
     display:flex;
     visibility:hidden;
-    background-color:black;
+    background-color:var(--color-black);
     text-transform:uppercase;
     justify-content: space-around;
     align-items: center;

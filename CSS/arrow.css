@@ -5,7 +5,7 @@
     display:flex;
     justify-content: center;
     align-items:center;
-    color:grey;
+    color:var(--color-lightbrown);
     position:absolute;
     bottom:0;
     right:4.5px;
@@ -14,7 +14,7 @@
     animation:mov 0.9s linear infinite;
     width:25px;
     height:25px;
-    border:3px solid var(black);
+    border:3px solid var(--color-brown);
     border-radius:150px;
     cursor:pointer;
     text-decoration: none;

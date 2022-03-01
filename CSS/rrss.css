@@ -20,7 +20,7 @@
   margin:20px;
   cursor:pointer;
   font-size:25px;
-  color:black;
+  color:var(--color-black);
 }
 
 .rrss ul li:hover{

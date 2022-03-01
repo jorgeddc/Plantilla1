@@ -4,8 +4,7 @@
   margin-top: 20px;;
   background-color:var(--color-brown);
    padding:1em;
-    font-family: 'Montserrat', sans-serif ;
-    font-family:'Shizuru';
+  
     border-radius: 10px;
   
 }
@@ -57,7 +56,7 @@
   width: 80%;
   height: 25px;
   margin: 10px;
-  background: linear-gradient(to left, transparent, #ccc);
+  background: linear-gradient(to left, transparent, var(--color-grey));
 }
 .form_items:nth-child(3) {
   width:80%;
@@ -69,25 +68,25 @@
 .formulario input[type="text"] {
   
   font-size: 15px;
-  color: white;
+  color: var(--color-white);
 }
 .formulario textarea {
   
   font-size: 15px;
-  color: white;
+  color: var(--color-white);
 }
 .formulario input[type="submit"] {
-    background-color: #7b664b;
+    background-color: var(--color-brown);
     
     font-size: 15px;
-    color: #ccc;
+    color: var(--color-grey);
   }
   
   .formulario input[type="submit"]:hover {
     background-color: var(--color-lightBrown);
     
     font-size: 15px;
-    color: #ccc;
+    color: var(--color-grey);
   }
   .imagen {
     display: flex;
@@ -104,11 +103,12 @@
   
   
   ::placeholder{
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Shizuru';
+
+    color:var(--color-white);
     text-align:center;
     text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+   
    
   }
   
@@ -127,35 +127,24 @@
     background-color:var(--color-lightBrown);
    
   }
-  .container-Btn button:nth-child(2) {
-    background-color:var(--color-brown);
-    border:2px solid var(--color-lightBrown);
-   
-  }
+ 
   .container-Btn button:nth-child(1):hover{
     background-color:var(--color-brown);
     border:2px solid var(--color-lightBrown);
-    box-shadow:5px 3px black;
-  }
-  .container-Btn button:nth-child(2):hover{
-    border:none;
-    background-color:var(--color-lightBrown);
-    box-shadow:5px 3px black;
-
+    box-shadow:5px 3px var(--color-black);
   }
 
   button {
       display:flex;
-      align-items:center;
+      align-items:center; 
       justify-content: center;
       width:150px;
       height:40px;
       padding:0 2em;
       cursor:pointer;
       margin:0 40px;
-      color:white;
-      font-family: 'Montserrat', sans-serif;
-      font-family: 'Shizuru';
+      color:var(--color-white);
+     
       font-size:15px;
       text-transform: uppercase;
   }
